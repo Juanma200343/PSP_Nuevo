@@ -8,6 +8,7 @@ public class GestionaMascotas {
 		// TODO Auto-generated method stub
 		
 		Mascota m1 = new Mascota("lulú");
+		
 		/*Thread cuidador1 = new Thread(m1,"cuidador1");
 		Thread cuidador2 = new Thread(m1,"cuidador2");
 		Thread cuidador3 = new Thread(m1,"cuidador3");
@@ -21,8 +22,23 @@ public class GestionaMascotas {
 		cuidador5.start();*/
 	
 		/*Ejercicio 5*/	
+		
 		for(int i = 0 ; i < 101 ; i++) {
-			m1.run();
+			String nombreHilo = "Hilo " +i;
+			Thread h = new Thread(m1, nombreHilo);
+			h.start();
+			
+			
+		}
+		
+		Thread[] hilos = null;
+		for(Thread h:hilos) {
+			try {
+				h.join();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 
