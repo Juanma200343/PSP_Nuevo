@@ -24,6 +24,7 @@ public class GestionaMascotas {
 		/*Ejercicio 5*/	
 		
 		for(int i = 0 ; i < 101 ; i++) {
+
 			String nombreHilo = "Hilo " +i;
 			Thread h = new Thread(m1, nombreHilo);
 			h.start();
