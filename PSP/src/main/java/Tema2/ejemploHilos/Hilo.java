@@ -1,4 +1,4 @@
-package ejemploHilos;
+package Tema2.ejemploHilos;
 
 public class Hilo implements Runnable {
 	

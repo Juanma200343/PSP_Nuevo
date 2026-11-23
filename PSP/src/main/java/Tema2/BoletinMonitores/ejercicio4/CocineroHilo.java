@@ -1,4 +1,4 @@
-package BoletinMonitores.ejercicio4;
+package Tema2.BoletinMonitores.ejercicio4;
 
 public class CocineroHilo implements Runnable {
 	

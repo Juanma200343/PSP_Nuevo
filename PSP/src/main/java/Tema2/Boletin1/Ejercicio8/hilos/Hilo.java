@@ -1,4 +1,4 @@
-package Boletin1.Ejercicio8.hilos;
+package Tema2.Boletin1.Ejercicio8.hilos;
 
 public class Hilo extends Thread {
 	private String nombreHilo;

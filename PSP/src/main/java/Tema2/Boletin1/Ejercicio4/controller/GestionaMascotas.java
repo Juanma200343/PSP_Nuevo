@@ -1,6 +1,8 @@
-package Boletin1.Ejercicio4.controller;
+package Tema2.Boletin1.Ejercicio4.controller;
 
-import Boletin1.Ejercicio4.hilo.Mascota;
+import Tema2.Boletin1.Ejercicio4.hilo.*;
+
+//import Tema2.Boletin1.Ejercicio4.hilo.Mascota;
 
 public class GestionaMascotas {
 

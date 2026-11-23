@@ -1,4 +1,4 @@
-package BoletinMonitores.ejercicio1.Hilo;
+package Tema2.BoletinMonitores.ejercicio1.Hilo;
 
 public class CuentaVocales implements Runnable {
 

@@ -1,4 +1,4 @@
-package BoletinMonitores.ejercicio1.main;
+package Tema2.BoletinMonitores.ejercicio1.main;
 
 public class Gestiona {
 

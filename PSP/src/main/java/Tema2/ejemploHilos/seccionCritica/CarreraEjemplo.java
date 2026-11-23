@@ -1,4 +1,4 @@
-package ejemploHilos.seccionCritica;
+package Tema2.ejemploHilos.seccionCritica;
 
 class Contador {
    private int valor = 0;

@@ -1,4 +1,4 @@
-package Boletin1.Ejercicio4.hilo;
+package Tema2.Boletin1.Ejercicio4.hilo;
 
 public class Mascota implements Runnable{
 	
